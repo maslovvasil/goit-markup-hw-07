@@ -1,0 +1,43 @@
+body {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-color-secondary);
+  background-color: #FFFFFF;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+ul {
+  margin: 0;
+  list-style: none;
+  padding-inline-start: 0;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  margin: 0;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.icon {
+  
+  fill: currentColor;
+}
+.section {
+  padding: 94px 0;
+}
