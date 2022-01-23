@@ -1,23 +1,23 @@
-.photo {
+.section--ptn {
   padding-top: 0;
 
   margin-left: auto;
   margin-right: auto;
 }
-.photo__item {
-  margin-right: 30px;
-}
-.photo__item:last-child {
-  margin-right: 0;
-}
-.photo__list {
+.photo {
   display: flex;
   margin-top: 50px;
+}
+.photo__item {
+  margin-right: 30px;
+ &:last-child {
+  margin-right: 0;
+}
 }
 .photo__description {
   position: relative;
 }
-.description {
+.photo__overlay {
   position: absolute;
   bottom: 0;
   display: flex;
@@ -27,7 +27,7 @@
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
 }
-.description__title {
+.photo__text {
   text-align: center;
 
   font-weight: 700;

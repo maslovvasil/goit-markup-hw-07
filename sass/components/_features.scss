@@ -1,13 +1,14 @@
-.features__list {
+.features {
   display: flex;
 }
 .features__item {
   margin-right: 30px;
-}
-.features__item:last-child {
+  &:last-child {
   margin-right: 0;
 }
-.features__idea {
+}
+
+.features__title {
   color: var(--text-color-primary);
   font-weight: 700;
   font-size: 14px;

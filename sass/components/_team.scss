@@ -1,19 +1,18 @@
-.team {
+.section--bgc {
   background: #f5f4fa;
 }
-.section .team {
-  padding: 94px 0;
-}
-.team__list {
+
+.team {
   display: flex;
   margin-top: 50px;
 }
 .team__item {
   margin-right: 30px;
-}
-.team__item:last-child {
+  &:last-child {
   margin-right: 0;
 }
+}
+
 .team__wrapper {
   display: block;
   align-items: center;
@@ -24,14 +23,14 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team__names {
+.team__title {
   color: var(--text-color-primary);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
 }
-.team__job {
+.team__text {
   margin-top: 10px;
   color: var(--text-color-secondary);
   font-size: 16px;

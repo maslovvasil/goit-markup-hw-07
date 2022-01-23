@@ -17,202 +17,184 @@
 <body>
   <header class="header">
     <div class="container header__container">
-      <a class="logo-header" href="#"><span class="logo-header__web">Web</span><span
-          class="logo-header__studio">Studio</span></a>
-      <nav class="nav-site">
-        <ul class="nav-site__list">
-          <li class="nav-site__item"><a href="/index.html" class="nav-site__link">Студия</a></li>
-          <li class="nav-site__item"><a href="#" class="nav-site__link nav-site__link--active">Портфолио</a></li>
-          <li class="nav-site__item"><a href="#" class="nav-site__link">Контакты</a></li>
+      <a class="logo-header" href="#">Web<span class="logo-header__studio">Studio</span></a>
+      <nav class="site-nav">
+        <ul class="site-nav__list">
+          <li class="site-nav__item"><a href="./index.html" class="site-nav__link">Студия</a></li>
+          <li class="site-nav__item"><a href="#" class="site-nav__link site-nav__link--active">Портфолио</a></li>
+          <li class="site-nav__item"><a href="#" class="site-nav__link">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="nav-auth__list">
-        <li class="nav-auth__item"><a href="mailto:info@devstudio.com" class="nav-auth__link">
-            <svg class="nav-auth__icon" width="16" height="12">
+      <ul class="auth-auth">
+        <li class="auth-auth__item"><a href="mailto:info@devstudio.com" class="auth-auth__link">
+            <svg class="auth-auth__icon" width="16" height="12">
               <use href="./images/symbol-defs.svg#icon-envelope"></use>
             </svg>info@devstudio.com</a>
         </li>
-        <li class="nav-auth__item"><a href="tel:+380961111111" class="nav-auth__link">
-            <svg class="nav-auth__icon" width="10" height="16">
+        <li class="auth-auth__item"><a href="tel:+380961111111" class="auth-auth__link">
+            <svg class="auth-auth__icon" width="10" height="16">
               <use href="./images/symbol-defs.svg#icon-smartphone"></use>
             </svg>+38 096 111 11 11</a>
         </li>
       </ul>
     </div>
   </header>
+<!--============================ MAIN ==============================-->
   <main>
-<!--======================================section-projects==============================-->
+<!--======================== section-projects =========================-->
     <section class="section">
       <div class="container">
         <h1 class="visually-hidden">Наші роботи</h1>
-        <ul class="cares__list">
-          <li class="cares__item"><button class="cares__button" type="button">Все</button></li>
-          <li class="cares__item"><button class="cares__button" type="button">Веб-сайты</button></li>
-          <li class="cares__item"><button class="cares__button" type="button">Приложения</button></li>
-          <li class="cares__item"><button class="cares__button" type="button">Дизайн</button></li>
-          <li class="cares__item"><button class="cares__button" type="button">Маркетинг</button></li>
+        <ul class="filter">
+          <li class="filter__item"><button class="filter__button" type="button">Все</button></li>
+          <li class="filter__item"><button class="filter__button" type="button">Веб-сайты</button></li>
+          <li class="filter__item"><button class="filter__button" type="button">Приложения</button></li>
+          <li class="filter__item"><button class="filter__button" type="button">Дизайн</button></li>
+          <li class="filter__item"><button class="filter__button" type="button">Маркетинг</button></li>
         </ul>
-          <ul class="products__list">
+          <ul class="products">
             <li class="products__item">
               <a href="#" class="products__link">
-                <div class="wrapper">  
-                  <div class="wrapper__info">
-                      <img src="images/img (5).jpg" width="370" class="wrapper__info-photo" alt="фото Веб-сайту">
-                      <p class="wrapper__info-text">Технокряк это современная площадка распространения коронавируса. Компании
+                  <div class="products__wrapper">
+                      <img src="images/img (5).jpg" width="370" class="products__info" alt="фото Веб-сайту">
+                      <p class="products__info-text">Технокряк это современная площадка распространения коронавируса. Компании
                           используют эту
                           платформу для цифрового
                           шпионажа и атак на защищённые сервера конкурентов.
                       </p>
                   </div>
-                  <div class="wrapper__product">
-                      <h2 class="wrapper__product-name">Технокряк</h2>
-                      <p class="wrapper__product-trait">Веб-сайт</p>
+                  <div class="products__thumb">
+                      <h2 class="products__title">Технокряк</h2>
+                      <p class="products__text">Веб-сайт</p>
                   </div>
-                </div>
-                </a>
+              </a>
             </li>
               <li class="products__item">
                 <a href="#" class="products__link">
-                  <div class="wrapper">
-                    <div class="wrapper__info">
-                      <img src="images/img (6).jpg" width="370" class="wrapper__info-photo" alt="Молодь грає волейбол">
-                      <p class="wrapper__info-text">Технокряк это современная площадка распространения коронавируса. Компании
+                    <div class="products__wrapper">
+                      <img src="images/img (6).jpg" width="370" class="products__info" alt="Молодь грає волейбол">
+                      <p class="products__info-text">Технокряк это современная площадка распространения коронавируса. Компании
                         используют эту
                         платформу для цифрового
                         шпионажа и атак на защищённые сервера конкурентов.
                       </p>
                     </div>
-                    <div class="wrapper__product">
-                      <h2 class="wrapper__product-name">Постер New Orlean vs Golden Star</h2>
-                      <p class="wrapper__product-trait">Дизайн</p>
+                    <div class="products__thumb">
+                      <h2 class="products__title">Постер New Orlean vs Golden Star</h2>
+                      <p class="products__text">Дизайн</p>
                     </div>
-                  </div>
                 </a>
               </li>
               <li class="products__item">
                   <a href="#" class="products__link">
-                    <div class="wrapper">
-                      <div class="wrapper__info">
-                        <img src="images/img (7).jpg" width="370" class="wrapper__info-photo" alt="Фото товару">
-                        <p class="wrapper__info-text">Технокряк это современная площадка распространения коронавируса. Компании
+                      <div class="products__wrapper">
+                        <img src="images/img (7).jpg" width="370" class="products__info" alt="Фото товару">
+                        <p class="products__info-text">Технокряк это современная площадка распространения коронавируса. Компании
                           используют эту
                           платформу для цифрового
                           шпионажа и атак на защищённые сервера конкурентов.
                         </p>
                       </div>
-                      <div class="wrapper__product">
-                        <h2 class="wrapper__product-name">Ресторан Seafood</h2>
-                        <p class="wrapper__product-trait">Приложение</p>
+                      <div class="products__thumb">
+                        <h2 class="products__title">Ресторан Seafood</h2>
+                        <p class="products__text">Приложение</p>
                       </div>
-                    </div>
                   </a>
               </li>
               <li class="products__item">
                   <a href="#" class="products__link">
-                    <div class="wrapper">
-                      <div class="wrapper__info">
-                        <img src="images/img (8).jpg" width="370" class="wrapper__info-photo" alt="Фото товару">
-                        <p class="wrapper__info-text">Технокряк это современная площадка распространения коронавируса. Компании
+                      <div class="products__wrapper">
+                        <img src="images/img (8).jpg" width="370" class="products__info" alt="Фото товару">
+                        <p class="products__info-text">Технокряк это современная площадка распространения коронавируса. Компании
                           используют эту
                           платформу для цифрового
                           шпионажа и атак на защищённые сервера конкурентов.
                         </p>
                       </div>
-                      <div class="wrapper__product">
-                        <h2 class="wrapper__product-name">Проект Prime</h2>
-                        <p class="wrapper__product-trait">Маркетинг</p>
+                      <div class="products__thumb">
+                        <h2 class="products__title">Проект Prime</h2>
+                        <p class="products__text">Маркетинг</p>
                       </div>
-                    </div>
                   </a>
               </li>
               <li class="products__item">
                   <a href="#" class="products__link">
-                    <div class="wrapper">
-                      <div class="wrapper__info">
-                        <img src="images/img (9).jpg" width="370" class="wrapper__info-photo" alt="Фото двох коробок">
-                        <p class="wrapper__info-text">Технокряк это современная площадка распространения коронавируса. Компании
+                      <div class="products__wrapper">
+                        <img src="images/img (9).jpg" width="370" class="products__info" alt="Фото двох коробок">
+                        <p class="products__info-text">Технокряк это современная площадка распространения коронавируса. Компании
                           используют эту
                           платформу для цифрового
                           шпионажа и атак на защищённые сервера конкурентов.
                         </p>
                       </div>
-                      <div class="wrapper__product">
-                        <h2 class="wrapper__product-name">Проект Boxes</h2>
-                        <p class="wrapper__product-trait">Приложение</p>
+                      <div class="products__thumb">
+                        <h2 class="products__title">Проект Boxes</h2>
+                        <p class="products__text">Приложение</p>
                       </div>
-                    </div>
                   </a>
               </li>
               <li class="products__item">
                   <a href="#" class="products__link">
-                    <div class="wrapper">
-                      <div class="wrapper__info">
-                        <img src="images/img (10).jpg" width="370" class="wrapper__info-photo" alt="Фото монітора">
-                        <p class="wrapper__info-text">Технокряк это современная площадка распространения коронавируса. Компании
+                      <div class="products__wrapper">
+                        <img src="images/img (10).jpg" width="370" class="products__infoo" alt="Фото монітора">
+                        <p class="products__info-text">Технокряк это современная площадка распространения коронавируса. Компании
                           используют эту
                           платформу для цифрового
                           шпионажа и атак на защищённые сервера конкурентов.
                         </p>
                       </div>
-                      <div class="wrapper__product">
-                        <h2 class="wrapper__product-name">Inspiration has no Borders</h2>
-                        <p class="wrapper__product-trait">Веб-сайт</p>
+                      <div class="products__thumb">
+                        <h2 class="products__title">Inspiration has no Borders</h2>
+                        <p class="products__text">Веб-сайт</p>
                       </div>
-                    </div>
                   </a>
               </li>
               <li class="products__item">
                   <a href="#" class="products__link">
-                    <div class="wrapper">
-                      <div class="wrapper__info">
-                        <img src="images/img (11).jpg" width="370" class="wrapper__info-photo" alt="Фото книжки">
-                        <p class="wrapper__info-text">Технокряк это современная площадка распространения коронавируса. Компании
+                      <div class="products__wrapper">
+                        <img src="images/img (11).jpg" width="370" class="products__info" alt="Фото книжки">
+                        <p class="products__info-text">Технокряк это современная площадка распространения коронавируса. Компании
                           используют эту
                           платформу для цифрового
                           шпионажа и атак на защищённые сервера конкурентов.
                         </p>
                       </div>
-                      <div class="wrapper__product">
-                        <h2 class="wrapper__product-name">Издание Limited Edition</h2>
-                        <p class="wrapper__product-trait">Дизайн</p>
+                      <div class="products__thumb">
+                        <h2 class="products__title">Издание Limited Edition</h2>
+                        <p class="products__text">Дизайн</p>
                       </div>
-                    </div>
                   </a>
               </li>
               <li class="products__item">
                   <a href="#" class="products__link">
-                    <div class="wrapper">
-                      <div class="wrapper__info">
-                        <img src="images/img (12).jpg" width="370" class="wrapper__info-photo" alt="Фото бірки з написом">
-                        <p class="wrapper__info-text">Технокряк это современная площадка распространения коронавируса. Компании
+                      <div class="products__wrapper">
+                        <img src="images/img (12).jpg" width="370" class="products__info" alt="Фото бірки з написом">
+                        <p class="products__info-text">Технокряк это современная площадка распространения коронавируса. Компании
                           используют эту
                           платформу для цифрового
                           шпионажа и атак на защищённые сервера конкурентов.
                         </p>
                       </div>
-                      <div class="wrapper__product">
-                        <h2 class="wrapper__product-name">Проект LAB</h2>
-                        <p class="wrapper__product-trait">Маркетинг</p>
+                      <div class="products__thumb">
+                        <h2 class="products__title">Проект LAB</h2>
+                        <p class="products__text">Маркетинг</p>
                       </div>
-                    </div>
                   </a>
               </li>
               <li class="products__item">
                   <a href="#" class="products__link">
-                    <div class="wrapper">
-                      <div class="wrapper__info">
-                        <img src="images/img (13).jpg" width="370" class="wrapper__info-photo" alt="Фото ноутбука">
-                        <p class="wrapper__info-text">Технокряк это современная площадка распространения коронавируса. Компании
+                      <div class="products__wrapper">
+                        <img src="images/img (13).jpg" width="370" class="products__info" alt="Фото ноутбука">
+                        <p class="products__info-text">Технокряк это современная площадка распространения коронавируса. Компании
                           используют эту
                           платформу для цифрового
                           шпионажа и атак на защищённые сервера конкурентов.
                         </p>
                       </div>
-                      <div class="wrapper__product">
-                        <h2 class="wrapper__product-name">Growing Business</h2>
-                        <p class="wrapper__product-trait">Приложение</p>
+                      <div class="products__thumb">
+                        <h2 class="products__title">Growing Business</h2>
+                        <p class="products__text">Приложение</p>
                       </div>
-                    </div>
                   </a>
               </li>
           </ul>

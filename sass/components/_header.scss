@@ -9,21 +9,15 @@
 .logo-header {
   margin-right: 93px;
   color: #000000;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-}
-.logo-header__web {
-  
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
 
+  font-family: Raleway, sans-serif ;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--text-color-accent);
 }
+
 .logo-header__studio {
   
   font-family: Raleway, sans-serif;
@@ -35,18 +29,23 @@
   color: #000000;
 
   transition: color 250ms var(--bezier-timing);
-}
-.logo-header__studio:focus,
-.logo-header__studio:hover {
+
+  &:focus,
+  &:hover {
   color: var(--text-color-accent);
 }
-.nav-site__list{
+}
+
+.site-nav__list{
   display: flex;
 }
-.nav-site__item {
+.site-nav__item {
   margin-right: 50px;
+  &:last-child {
+  margin-right: 0;
 }
-.nav-site__link {
+}
+.site-nav__link {
   color: var(--text-color-primary);
   display: block;
   padding: 32px 0;
@@ -55,19 +54,17 @@
   font-size: 14px;
   line-height: 1.14;
 
+
   transition: color 250ms var(--bezier-timing);
-}
-.nav-site__item:last-child {
-  margin-right: 0;
-}
-.nav-site__link:hover,
-.nav-site__link:focus {
+
+  &:hover,
+  &:focus {
   color: var(--text-color-accent);
 }
-.nav-site__link--active {
+ &--active {
   color: var(--text-color-accent);
 }
-.nav-site__link--active::after {
+ &--active::after {
   content: "";
   display: block;
   position: relative;
@@ -78,17 +75,21 @@
   background-color: var(--text-color-accent);
   border-radius: 2px;
 }
-.nav-auth__list {
+
+}
+.auth-auth {
   display: flex;
   margin-left: auto;
+  
 }
-.nav-auth__item {
+.auth-auth__item {
   margin-right: 50px;
-}
-.nav-auth__item:last-child {
+ &:last-child {
   margin-right: 0;
 }
-.nav-auth__link {
+}
+
+.auth-auth__link {
   display: inline-flex;
   align-items: center;
   color: var(--text-color-secondary);
@@ -98,13 +99,13 @@
   line-height: 1.14;
 
   transition: color 250ms var(--bezier-timing);
+  &:hover,
+  &:focus {
+  color: var(--text-color-accent);
 }
-.nav-auth__icon {
+}
+.auth-auth__icon {
 
   margin-right: 10px;
   fill: currentColor;
-}
-.nav-auth__link:hover,
-.nav-auth__link:focus {
-  color: var(--text-color-accent);
 }
